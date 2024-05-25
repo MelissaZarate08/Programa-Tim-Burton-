@@ -1,0 +1,136 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #bc88fc;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+.biografia {
+    text-align: center;
+}
+
+.biografia img {
+    max-width: 300px;
+    border-radius: 100%;
+}
+
+.biografia p {
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+.cartelera {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.pelicula {
+    background-color: #2c2c2c;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pelicula img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.pelicula h3 {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.pelicula p {
+    margin: 0.5rem 0 1rem 0;
+}
+
+.trailer-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #bc88fc;
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.trailer-btn:hover {
+    background-color: #8629f7;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #121212;
+    color: #fff;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background-color: #bb86fc;
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #3700b3;
+}
+ 
